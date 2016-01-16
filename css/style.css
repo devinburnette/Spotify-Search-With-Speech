@@ -1,0 +1,33 @@
+#login, #loggedin {
+        display: none;
+      }
+      .text-overflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 500px;
+      }
+      body {
+        background: black;
+      }
+      .container {
+        text-align: center;
+        color: #1ED760;
+      }
+      #searchresults {
+        display:table-row;
+        width:1200px;
+        clear:both;
+      }
+      #tracks {
+        display:table-cell;
+        width:400px;
+      }
+      #albums {
+        display:table-cell;
+        width:400px;
+      }
+      #artists {
+        display:table-cell;
+        width:400px;
+      }
