@@ -49,7 +49,7 @@
           }
           document.getElementById('login-button').addEventListener('click', function() {
             var client_id = '2254a632581749fc85da995471c266e8'; // Your client id
-            var redirect_uri = 'http://localhost/'; // Your redirect uri
+            var redirect_uri = 'https://speaktospotify.herokuapp.com/'; // Your redirect uri
             var state = generateRandomString(16);
             localStorage.setItem(stateKey, state);
             var scope = 'user-read-private user-read-email';
